@@ -1,1 +1,1 @@
-# konveyor-contents
+### This repository contains the raw materials to create technical blogs on [KBE](http://kubebyexample.com/); specifically on the open-source Konveyor project

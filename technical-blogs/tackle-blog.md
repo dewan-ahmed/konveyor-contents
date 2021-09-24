@@ -1,0 +1,1 @@
+### To be updated after receiving review comments on [Tackle Blog Structure](tackle-blog-structure.md)
