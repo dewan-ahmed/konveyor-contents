@@ -14,7 +14,7 @@ Once your applications are assessed by Tackle, they can be rehosted using [Crane
 
 ## How Tackle components come together to help you assess applications to migrate to Kubernetes
 
-Tackle comprises multiple components - each of which functions as a stand-alone component now (with a vision to integrate and function as a single component in the future). This blog will highlight the two main components - Pathfinder and Application Inventory and discuss other components in a future blog as the Tackle project matures.
+Tackle comprises multiple tools - each of which functions as a stand-alone component now (with a vision to integrate and function as a single component in the future). This blog will highlight the two main tools - Pathfinder and Application Inventory and discuss other tools in a future blog as the Tackle project matures.
 
 ![Tackle Architecture](assets/tackle-architecture.png)
 
