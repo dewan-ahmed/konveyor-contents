@@ -4,19 +4,23 @@ Your containerization and journey to Kubernetes might be easier if you have a gr
 
 ## How Tackle fits into the overall Konveyor landscape
 
-Tackle is one of the projects under the larger Konveyor umbrella project. Let's use the following diagram to discuss how Tackle fits in and what problems is it addressing.
+Tackle is one of the projects under the larger Konveyor umbrella community. Let's use the following diagram to discuss how Tackle fits in and what problems is it addressing.
 
 ![Konveyor Projects](assets/konveyor-projects.jpg)
 
-The first Tackle block (the hub) on the above diagram refers to the [Tackle Pathfinder](https://github.com/konveyor/tackle-pathfinder) tool that is used to assess the application portfolio first and come up with the migration strategy to follow with each application or application type. The next Tackle block (in the **refactor** path) - Tackle Analyze, is used to detect what needs to be changed for all the applications assessed by Tackle Pathfinder to run on the target environment and provide guidelines and some degree of automation on how to perform these changes. 
+At first, we assess our application portfolio with [Tackle Pathfinder](https://github.com/konveyor/tackle-pathfinder) - a tool that is used to come up with the migration strategy to follow with each application or application type. For the refactor strategy, we can also use Tackle to detect what needs to be changed for all the applications assessed by Tackle Pathfinder to run on the target environment and provide guidelines and some degree of automation on how to perform these changes. 
 
 Once your applications are assessed by Tackle, they can be rehosted using [Crane](https://www.konveyor.io/crane) or [Forklift](https://forklift.konveyor.io/), replatformed using [Move2Kube](https://move2kube.konveyor.io/), and/or refactored using other tools that are part of the Tackle project.   
 
 ## How Tackle components come together to help you assess applications to migrate to Kubernetes
 
-Tackle comprises multiple tools - each of which functions as a stand-alone component now (with a vision to integrate and function as a single component in the future). This blog will highlight the two main tools - Pathfinder and Application Inventory and discuss other tools in a future blog as the Tackle project matures.
+Tackle comprises three key pillars:
 
-![Tackle Architecture](assets/tackle-architecture.png)
+- Application Inventory
+- Pathfinder
+- Controls
+ 
+The Controls component is a bit different from the first two as it is used to store master data for the Application Inventory and Pathfinde. This blog will highlight the Pathfinder and Application Inventory since Tackle users will not interact with the Controls component directly. 
 
 [Tackle Application Inventory](https://github.com/konveyor/tackle-application-inventory) allows users to maintain their portfolio of applications, link them to the business services that they support, define their interdependencies, and use an extensible tagging model to add metadata to describe and categorize them in multiple dimensions. The Application Inventory is the vehicle by which an application can be selected for assessment by Pathfinder.
 
@@ -24,7 +28,7 @@ Tackle comprises multiple tools - each of which functions as a stand-alone compo
 
 Both Application Inventory and Pathfinder tools are accessible from a common [Tackle UI](https://github.com/konveyor/tackle-ui/).
 
-Besides the above two tools, there are [Tackle DiVA](https://github.com/konveyor/tackle-diva), [Tackle Test Generator](https://github.com/konveyor/tackle-test-generator-cli), and [Tackle Container Advisor](https://github.com/konveyor/tackle-container-advisor) which will be discussed in a future blog. 
+Besides the above two tools, there are [Tackle DiVA](https://github.com/konveyor/tackle-diva), [Tackle Test Generator](https://github.com/konveyor/tackle-test-generator-cli), and [Tackle Container Advisor](https://github.com/konveyor/tackle-container-advisor) which you can learn more about from the links under the resources section. 
 
 ## How to get involved with the Tackle project
 
@@ -32,3 +36,10 @@ Ready to give Tackle a try? Start [here](https://www.konveyor.io/tackle).
 
 Have a question or just would like to say "hi"? Join the [Tackle Mailing List](https://groups.google.com/g/tackle-dev) or join the #konveyor channel on slack.k8s.io
 
+## Resources
+
+- [Tackle Containerization Advisor (TCA) for Legacy Applications](https://www.youtube.com/watch?v=VapEooROERw)
+
+- [Data-centric Application Analysis with Open-source Tool Tackle-DiVA](https://www.youtube.com/watch?v=UJi1tGFMw2M)
+- [Migrate and Modernize your Application Portfolio to Kubernetes with Tackle](https://www.youtube.com/watch?v=S8ISWz87rlk)
+- [Tackle-test: An Automatic Unit-level Test Case Generator](https://www.youtube.com/watch?v=qThqTFh2PM4)
