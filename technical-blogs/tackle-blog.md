@@ -20,7 +20,7 @@ Tackle comprises three key pillars:
 - Pathfinder
 - Controls
  
-The Controls component is a bit different from the first two as it is used to store master data for the Application Inventory and Pathfinder. This blog will highlight the Pathfinder and Application Inventory since Tackle users will not interact with the Controls component directly. 
+The Controls component is a bit different from the first two as it is used to store master data for the Application Inventory and Pathfinder. This blog will highlight Pathfinder and Application Inventory since Tackle users will not interact with the Controls component directly. 
 
 [Tackle Application Inventory](https://github.com/konveyor/tackle-application-inventory) allows users to maintain their portfolio of applications, link them to the business services that they support, define their interdependencies, and use an extensible tagging model to add metadata to describe and categorize them in multiple dimensions. The Application Inventory is the vehicle by which an application can be selected for assessment by Pathfinder.
 
