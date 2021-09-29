@@ -28,7 +28,7 @@ The Controls component is a bit different from the first two as it is used to st
 
 Both Application Inventory and Pathfinder tools are accessible from a common [Tackle UI](https://github.com/konveyor/tackle-ui/).
 
-Besides the above two tools, there are [Tackle DiVA](https://github.com/konveyor/tackle-diva), [Tackle Test Generator](https://github.com/konveyor/tackle-test-generator-cli), and [Tackle Container Advisor](https://github.com/konveyor/tackle-container-advisor) which you can learn more about from the links under the resources section. 
+Besides the above two tools, there are [Tackle DiVA](https://github.com/konveyor/tackle-diva), [Tackle Test Generator](https://github.com/konveyor/tackle-test-generator-cli), and [Tackle Container Advisor](https://github.com/konveyor/tackle-container-advisor) which you can learn more about from the links under the [Resources](#resources) section. 
 
 ## How to get involved with the Tackle project
 
