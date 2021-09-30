@@ -8,18 +8,19 @@ Tackle is one of the projects under the larger Konveyor umbrella community. Let'
 
 ![Konveyor Projects](assets/konveyor-projects.jpg)
 
-At first, we assess our application portfolio with [Tackle Pathfinder](https://github.com/konveyor/tackle-pathfinder) - a tool that is used to come up with the migration strategy to follow with each application or application type. For the refactor strategy, we can also use Tackle to detect what needs to be changed for all the applications assessed by Tackle Pathfinder to run on the target environment and provide guidelines and some degree of automation on how to perform these changes. 
+At first, we assess our application portfolio with [Tackle Pathfinder](https://github.com/konveyor/tackle-pathfinder) - a tool that is used to come up with the migration strategy to follow with each application or application type. For the refactor strategy, we can also use Tackle to detect what needs to be changed for all of the applications assessed by Tackle Pathfinder to run on the target environment and provide guidelines as well as some degree of automation on how to perform these changes. 
 
 Once your applications are assessed by Tackle, they can be rehosted using [Crane](https://www.konveyor.io/crane) or [Forklift](https://forklift.konveyor.io/), replatformed using [Move2Kube](https://move2kube.konveyor.io/), and/or refactored using other tools that are part of the Tackle project.   
 
 ## How Tackle components come together to help you assess applications to migrate to Kubernetes
 
-Tackle comprises three key pillars:
+Tackle is comprised of three key pillars:
 
 - Application Inventory
 - Pathfinder
 - Controls
  
+
 The Controls component is a bit different from the first two as it is used to store master data for the Application Inventory and Pathfinder. This blog will highlight Pathfinder and Application Inventory since Tackle users will not interact with the Controls component directly. 
 
 [Tackle Application Inventory](https://github.com/konveyor/tackle-application-inventory) allows users to maintain their portfolio of applications, link them to the business services that they support, define their interdependencies, and use an extensible tagging model to add metadata to describe and categorize them in multiple dimensions. The Application Inventory is the vehicle by which an application can be selected for assessment by Pathfinder.
@@ -34,7 +35,7 @@ Besides the above two tools, there are [Tackle DiVA](https://github.com/konveyor
 
 Ready to give Tackle a try? Start [here](https://www.konveyor.io/tackle).
 
-Have a question or just would like to say "hi"? Join the [Tackle Mailing List](https://groups.google.com/g/tackle-dev) or join the #konveyor channel on slack.k8s.io
+Have a question or would like to just say "hi"? Join the [Tackle Mailing List](https://groups.google.com/g/tackle-dev) or join the #konveyor channel on slack.k8s.io
 
 ## Resources
 
